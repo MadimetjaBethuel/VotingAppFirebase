@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/OrgRegEmail"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="#ffff"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+
+            <EditText
+                android:id="@+id/OrgRegNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:inputType="number"
+                android:padding="8dp"
+                android:hint="Verification Number"
+                android:textColorHint="#ffff"
+                android:textColor="#ffff"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/fui_ic_phone_white_24dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/OrgRegPassword"
+                android:drawablePadding="12dp"
+                android:textColorHint="#ffff"
+                android:paddingBottom="8dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:hint="Password"
+                android:textColor="#ffff"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+
+
+            <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:id="@+id/OrgBtnregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                app:spinning_bar_width="4dp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:initialCornerAngle="27dp"/>
+            <TextView
+                android:id="@+id/LoginTextOrg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have an Account? LOGIN"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+

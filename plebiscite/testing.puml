@@ -1,0 +1,49 @@
+@startuml
+class com.vouta.plebiscite.activities.AdminLogin {
+- CircularProgressButton circularProgressButton
+- FirebaseAuth auth
+- EditText editEmail
+~ FirebaseDatabase firebaseDatabase
+~ DatabaseReference Adminref
+~ String Uid
+# void onCreate(Bundle)
++ void getUpdate()
+}
+class com.vouta.plebiscite.activities.SendRegNum {
++ {static} String RegNum
+- TextView verification
+- EditText Subject
+~ CircularProgressButton circularProgressButton
+~ Model model
+# void onCreate(Bundle)
+- void sendEmail()
+}
+class com.vouta.plebiscite.activities.AddCandidadateForm {
+- EditText NameOrg
+- CircularProgressButton submit
+- String TempName
+- FirebaseDatabase database
+- DatabaseReference databaseReference
+- FirebaseFirestore firebaseFirestore
+- DocumentReference documentReference
+- String Uid
+- FirebaseAuth mAuth
+- String date
+- AdminLogin Login
+~ AddOrg addOrg
+# void onCreate(Bundle)
+- void validate()
+- void Save()
+- void AddOrg(String,String,String,String)
+}
+class com.vouta.plebiscite.activities.notify {
+~ CircularProgressButton circularProgressButton
+# void onCreate(Bundle)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.vouta.plebiscite.activities.AdminLogin
+androidx.appcompat.app.AppCompatActivity <|-- com.vouta.plebiscite.activities.SendRegNum
+androidx.appcompat.app.AppCompatActivity <|-- com.vouta.plebiscite.activities.AddCandidadateForm
+androidx.appcompat.app.AppCompatActivity <|-- com.vouta.plebiscite.activities.notify
+@enduml

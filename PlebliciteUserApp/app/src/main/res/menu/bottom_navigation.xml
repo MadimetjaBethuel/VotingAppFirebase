@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">]
+
+    <item
+        android:id="@+id/nave_home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"/>
+    <item
+        android:id="@+id/nav_Results"
+        android:title="Results"
+        android:icon="@drawable/profits"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"/>
+    <item
+        android:id="@+id/nav_Notifications"
+        android:title="Notifications"
+        android:icon="@drawable/notification"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"/>
+    <item
+        android:id="@+id/nav_menu"
+        android:title="Menu"
+        android:icon="@drawable/menu"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"/>
+</menu>

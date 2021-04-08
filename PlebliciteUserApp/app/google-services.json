@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "890409344208",
+    "firebase_url": "https://plebiscite-ad4b5.firebaseio.com",
+    "project_id": "plebiscite-ad4b5",
+    "storage_bucket": "plebiscite-ad4b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890409344208:android:d19c4ffa0bc91588d0d2d5",
+        "android_client_info": {
+          "package_name": "com.vouta.plebiscite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890409344208-fap9te5s639c9lqhsnku2mlq1iruad0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vouta.plebiscite",
+            "certificate_hash": "5355d19ec191ba6c730a5929b05b52f0c7e81a78"
+          }
+        },
+        {
+          "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5tEJA3jmW1rjkZ6JoGjUNTHsXVC2XRDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890409344208:android:f16e29253ea19cb6d0d2d5",
+        "android_client_info": {
+          "package_name": "com.vouta.plebisciteUser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5tEJA3jmW1rjkZ6JoGjUNTHsXVC2XRDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890409344208:android:67c62a9e3222e5c0d0d2d5",
+        "android_client_info": {
+          "package_name": "com.vouta.plebliciteuserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5tEJA3jmW1rjkZ6JoGjUNTHsXVC2XRDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890409344208-gtivpovddgt9b76fhp4sdo71bea6rocf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
